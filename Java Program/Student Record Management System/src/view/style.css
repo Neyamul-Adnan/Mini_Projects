@@ -1,0 +1,55 @@
+
+.root-pane{
+    -fx-background-color: black;
+    -fx-alignment: CENTER;
+}
+
+.student-table {
+    -fx-background-color: transparent;
+}
+.student-table .column-header-background {
+    -fx-background-color: #383f4b;
+}
+.student-table .column-header, .student-table .filler {
+    -fx-background-color: transparent;
+}
+
+.student-table .column-header .label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+
+.student-table .table-row-cell {
+    -fx-background-color: #0d1117;
+}
+
+.student-table .table-row-cell:odd {
+    -fx-background-color: #0a0e14;
+}
+
+.student-table .table-row-cell:hover {
+    -fx-background-color: #292e38;
+}
+
+.student-table .table-row-cell:selected {
+    -fx-background-color: #1f3a5f;
+}
+
+.student-table .table-cell {
+    -fx-text-fill: #c9d1d9;
+    -fx-font-size: 13px;
+    -fx-padding: 10 15 10 15;
+    -fx-border-color: transparent;
+}
+
+.buttons {
+    -fx-background-color: #1f6feb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-font-size: 13px;
+}
+.buttons:hover { -fx-background-color: #388bfd; }
+
